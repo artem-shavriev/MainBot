@@ -75,10 +75,17 @@ public class TelegramBot extends TelegramLongPollingBot {
                 case "/help":
                     sendMessage(chatId, HELP_TEXT);
                     break;
+                    
+                case "/register":
+                    register(chatId);
+                    break;
                 default:
                     sendMessage(chatId, "Извини, эта команда еще не поддерживатеся.");
             }
         }
+    }
+
+    private void register(long chatId) {
     }
 
     private void registerUser(Message message) {

@@ -3,7 +3,7 @@ server:
 
 bot:
   name: MainInsiderBot
-  token: 8133186347:AAHPAAdV9PP_niSs7VQ6ZwCSc63Yzvo8VVQ
+  token:
 
 spring:
   application:
