@@ -1,0 +1,25 @@
+server:
+  port: 9090
+
+bot:
+  name: MainInsiderBot
+  token: 8133186347:AAHPAAdV9PP_niSs7VQ6ZwCSc63Yzvo8VVQ
+
+spring:
+  application:
+    name: mainBot
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+  sql:
+    init:
+      mode: always
+
+  datasource:
+    url: jdbc:postgresql://localhost:6432/main-bot-db
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: user
