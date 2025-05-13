@@ -3,7 +3,13 @@ server:
 
 bot:
   name: MainInsiderBot
-  token:
+  token: 7949198317:AAGuJI6KwUHseDJ5yoAHQ76_cFu2baFuL0c
+  owner:
+cron:
+  # cек., мин., день, неделя, месяц, год
+  # первая цифра 0 значит, что каждую минуту и 0 сек
+  scheduler: 0 * * * * *
+
 
 spring:
   application:
